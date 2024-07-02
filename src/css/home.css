@@ -122,4 +122,39 @@
   padding: 10px;
   cursor: pointer;
   font-family: "Inter", sans-serif;
+}
+
+footer {
+  background: #3052F3;
+  color: white;
+  margin-top: 30px;
+}
+footer .wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding-block: 30px;
+}
+footer .wrapper .main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .wrapper .links {
+  display: flex;
+  justify-content: space-between;
+}
+footer .wrapper .links .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .wrapper .links .contact .tel, footer .wrapper .links .contact .email {
+  display: flex;
+  gap: 15px;
+}
+footer .right_reserved {
+  text-align: center;
+  padding-block: 15px;
+  border-top: 2px solid rgba(186, 183, 183, 0.3);
 }/*# sourceMappingURL=home.css.map */

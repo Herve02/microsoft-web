@@ -74,6 +74,50 @@ export default function Home() {
             </div>
 
         </section>
+        <footer>
+            <div className="wrapper">
+                <div className="main-content">
+                    <div>
+                        <img src="/img/logo.svg" alt="" srcset="" />
+                        <p>
+                            Discover the future with Microsoft. Innovative products and solutions designed to enhance your digital life. Join us and elevate your experience.
+                        </p>
+                    </div>
+                </div>
+
+                <div className='links'>
+                    <div className="important_links">
+                     <h3>Links</h3>
+                    <ul >
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Check Out</a></li>
+                    </ul>
+                    </div>
+
+
+                
+                <div className="contact">
+                    <h3>Contact Us</h3>
+                    <div className="tel">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5317 12.4724C15.5208 16.4604 16.4258 11.8467 18.9656 14.3848C21.4143 16.8328 22.8216 17.3232 19.7192 20.4247C19.3306 20.737 16.8616 24.4943 8.1846 15.8197C-0.493478 7.144 3.26158 4.67244 3.57397 4.28395C6.68387 1.17385 7.16586 2.58938 9.61449 5.03733C12.1544 7.5765 7.54266 8.48441 11.5317 12.4724Z" fill="#fff"/>
+                    </svg>                        
+                    <p>1-800-642-7676</p>
+                    </div>
+                    <div className="email">
+                    <img src="/img/email.svg" alt="" />
+                        <p>1-800-MICROSOFT</p>
+                    </div>
+                </div>
+
+                </div>
+   
+
+
+            </div>
+            <p className='right_reserved'>© 2024 Microsoft. All rights reserved    </p>
+        </footer>
     </main>
     </>
   )
