@@ -50,11 +50,11 @@ export default function Home() {
                 <table>
                     <tr>
                         <td><img src="/img/Call.png" alt="" /></td>
-                        <td><p>If  you have an urgent business concern please contact us at 07*************0</p></td>
+                        <td><p>If  you have an urgent business concern please contact us at 1-800-642-7676</p></td>
                     </tr>
                     <tr>
                         <td><img src="/img/Notification.png" alt="" srcset="" /></td>
-                        <td>If  you have an urgent business concern please contact us at 07*************0</td>
+                        <td>If  you have an urgent business concern please contact us at 1-800-MICROSOFT</td>
                     </tr>
                 </table>
                 <div className="icons">
@@ -67,8 +67,8 @@ export default function Home() {
             </div>
             <form action="">
                 <input type="text" placeholder='Name'/>
-                <input type="text" placeholder='email'/>
-                <input type="text" placeholder='Message'/>
+                <input type="email" placeholder='Email'/>
+                <textarea type="text" placeholder='Message'/>
                 <button>Submit</button>
             </form>
             </div>
