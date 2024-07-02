@@ -1,0 +1,80 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .hero-content {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero .hero-content h2 {
+  font-size: 30px;
+}
+.hero .hero-img {
+  width: 49%;
+}
+.hero .hero-img img {
+  width: 100%;
+  height: auto;
+}
+.hero .btns {
+  display: flex;
+  gap: 20px;
+}
+.hero .btns button {
+  padding: 12px 30px;
+  border: none;
+  background-color: #3052F3;
+  border-radius: 5px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.hero .btns .btn1 {
+  padding-block: 10px;
+  background: none;
+  border: 2px solid #3052F3;
+  color: #3052F3;
+}
+
+.about .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .wrapper .img {
+  width: 49%;
+}
+.about .wrapper .img img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.about .wrapper .img h2 {
+  margin-bottom: 10px;
+}
+.about .wrapper .img h2 span {
+  color: #3052F3;
+}
+.about .wrapper .content {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contacts .wrapper {
+  display: flex;
+}
+.contacts .wrapper .contents {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contacts .wrapper .contents .headings h3 {
+  color: #3052F3;
+  font-size: 30px;
+}/*# sourceMappingURL=home.css.map */
