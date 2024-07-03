@@ -1,0 +1,57 @@
+.wrapper .empty {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.wrapper .empty img {
+  width: 250px;
+  height: auto;
+}
+.wrapper .checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.wrapper .checkout .total {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: auto;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.wrapper .checkout .total button {
+  background-color: #3052f3;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+.wrapper .checkout .checkout-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.wrapper .checkout .checkout-item img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wrapper .checkout .checkout-item .name {
+  font-weight: 500;
+}
+.wrapper .checkout .checkout-item button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=checkout.css.map */
